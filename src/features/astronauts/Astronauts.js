@@ -15,7 +15,7 @@ function Astronauts() {
   const astronautsList = astronauts.map((astro) => (
     <li key={astro.id}>{astro.name}</li>
   ));
-
+console.log(astronauts,"lets");
   return (
     <div>
       <button onClick={handleClick}>Get Astronauts</button>
